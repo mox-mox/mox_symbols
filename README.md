@@ -1,2 +1,2 @@
 # mox_symbols
-My Kicad schematic symbols library,
+My Kicad schematic symbols library. UNTESTED
