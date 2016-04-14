@@ -4,7 +4,19 @@ $CMP +20V
 K POWER, PWR
 $ENDCMP
 #
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
 $CMP +8V
+K POWER, PWR
+$ENDCMP
+#
+$CMP AGND
 K POWER, PWR
 $ENDCMP
 #
@@ -45,6 +57,10 @@ $CMP Led
 D Led
 $ENDCMP
 #
+$CMP PGND
+K POWER, PWR
+$ENDCMP
+#
 $CMP R
 D Resistor
 $ENDCMP
@@ -57,6 +73,10 @@ $ENDCMP
 $CMP T_PMOS
 D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
 $ENDCMP
 #
 #End Doc Library
