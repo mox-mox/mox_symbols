@@ -65,6 +65,12 @@ $CMP R
 D Resistor
 $ENDCMP
 #
+$CMP TPS51225C
+D Dual Synchronous, Step-Down Controller with 5-V and 3.3-V LDOs
+K Dual,Buck
+F http://www.ti.com/lit/gpn/TPS51225B
+$ENDCMP
+#
 $CMP T_NMOS
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
